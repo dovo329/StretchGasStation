@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A547F8FD1B1CB41F002ADEAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A547F8FC1B1CB41F002ADEAC /* main.m */; };
+		A547F9001B1CB41F002ADEAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A547F8FF1B1CB41F002ADEAC /* AppDelegate.m */; };
+		A547F9031B1CB41F002ADEAC /* StretchGasStation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A547F9011B1CB41F002ADEAC /* StretchGasStation.xcdatamodeld */; };
+		A547F9061B1CB41F002ADEAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A547F9051B1CB41F002ADEAC /* ViewController.m */; };
+		A547F9091B1CB41F002ADEAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A547F9071B1CB41F002ADEAC /* Main.storyboard */; };
+		A547F90B1B1CB41F002ADEAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A547F90A1B1CB41F002ADEAC /* Images.xcassets */; };
+		A547F90E1B1CB41F002ADEAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A547F90C1B1CB41F002ADEAC /* LaunchScreen.xib */; };
+		A547F91A1B1CB41F002ADEAC /* StretchGasStationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A547F9191B1CB41F002ADEAC /* StretchGasStationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A547F9141B1CB41F002ADEAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A547F8EF1B1CB41F002ADEAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A547F8F61B1CB41F002ADEAC;
+			remoteInfo = StretchGasStation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A547F8F71B1CB41F002ADEAC /* StretchGasStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchGasStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A547F8FB1B1CB41F002ADEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A547F8FC1B1CB41F002ADEAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A547F8FE1B1CB41F002ADEAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A547F8FF1B1CB41F002ADEAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A547F9021B1CB41F002ADEAC /* StretchGasStation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StretchGasStation.xcdatamodel; sourceTree = "<group>"; };
+		A547F9041B1CB41F002ADEAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A547F9051B1CB41F002ADEAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A547F9081B1CB41F002ADEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A547F90A1B1CB41F002ADEAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A547F90D1B1CB41F002ADEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A547F9131B1CB41F002ADEAC /* StretchGasStationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchGasStationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A547F9181B1CB41F002ADEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A547F9191B1CB41F002ADEAC /* StretchGasStationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StretchGasStationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A547F8F41B1CB41F002ADEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A547F9101B1CB41F002ADEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A547F8EE1B1CB41F002ADEAC = {
+			isa = PBXGroup;
+			children = (
+				A547F8F91B1CB41F002ADEAC /* StretchGasStation */,
+				A547F9161B1CB41F002ADEAC /* StretchGasStationTests */,
+				A547F8F81B1CB41F002ADEAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A547F8F81B1CB41F002ADEAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A547F8F71B1CB41F002ADEAC /* StretchGasStation.app */,
+				A547F9131B1CB41F002ADEAC /* StretchGasStationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A547F8F91B1CB41F002ADEAC /* StretchGasStation */ = {
+			isa = PBXGroup;
+			children = (
+				A547F8FE1B1CB41F002ADEAC /* AppDelegate.h */,
+				A547F8FF1B1CB41F002ADEAC /* AppDelegate.m */,
+				A547F9041B1CB41F002ADEAC /* ViewController.h */,
+				A547F9051B1CB41F002ADEAC /* ViewController.m */,
+				A547F9071B1CB41F002ADEAC /* Main.storyboard */,
+				A547F90A1B1CB41F002ADEAC /* Images.xcassets */,
+				A547F90C1B1CB41F002ADEAC /* LaunchScreen.xib */,
+				A547F9011B1CB41F002ADEAC /* StretchGasStation.xcdatamodeld */,
+				A547F8FA1B1CB41F002ADEAC /* Supporting Files */,
+			);
+			path = StretchGasStation;
+			sourceTree = "<group>";
+		};
+		A547F8FA1B1CB41F002ADEAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A547F8FB1B1CB41F002ADEAC /* Info.plist */,
+				A547F8FC1B1CB41F002ADEAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A547F9161B1CB41F002ADEAC /* StretchGasStationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A547F9191B1CB41F002ADEAC /* StretchGasStationTests.m */,
+				A547F9171B1CB41F002ADEAC /* Supporting Files */,
+			);
+			path = StretchGasStationTests;
+			sourceTree = "<group>";
+		};
+		A547F9171B1CB41F002ADEAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A547F9181B1CB41F002ADEAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A547F8F61B1CB41F002ADEAC /* StretchGasStation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A547F91D1B1CB41F002ADEAC /* Build configuration list for PBXNativeTarget "StretchGasStation" */;
+			buildPhases = (
+				A547F8F31B1CB41F002ADEAC /* Sources */,
+				A547F8F41B1CB41F002ADEAC /* Frameworks */,
+				A547F8F51B1CB41F002ADEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StretchGasStation;
+			productName = StretchGasStation;
+			productReference = A547F8F71B1CB41F002ADEAC /* StretchGasStation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A547F9121B1CB41F002ADEAC /* StretchGasStationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A547F9201B1CB41F002ADEAC /* Build configuration list for PBXNativeTarget "StretchGasStationTests" */;
+			buildPhases = (
+				A547F90F1B1CB41F002ADEAC /* Sources */,
+				A547F9101B1CB41F002ADEAC /* Frameworks */,
+				A547F9111B1CB41F002ADEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A547F9151B1CB41F002ADEAC /* PBXTargetDependency */,
+			);
+			name = StretchGasStationTests;
+			productName = StretchGasStationTests;
+			productReference = A547F9131B1CB41F002ADEAC /* StretchGasStationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A547F8EF1B1CB41F002ADEAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DougsApps;
+				TargetAttributes = {
+					A547F8F61B1CB41F002ADEAC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A547F9121B1CB41F002ADEAC = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A547F8F61B1CB41F002ADEAC;
+					};
+				};
+			};
+			buildConfigurationList = A547F8F21B1CB41F002ADEAC /* Build configuration list for PBXProject "StretchGasStation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A547F8EE1B1CB41F002ADEAC;
+			productRefGroup = A547F8F81B1CB41F002ADEAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A547F8F61B1CB41F002ADEAC /* StretchGasStation */,
+				A547F9121B1CB41F002ADEAC /* StretchGasStationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A547F8F51B1CB41F002ADEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A547F9091B1CB41F002ADEAC /* Main.storyboard in Resources */,
+				A547F90E1B1CB41F002ADEAC /* LaunchScreen.xib in Resources */,
+				A547F90B1B1CB41F002ADEAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A547F9111B1CB41F002ADEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A547F8F31B1CB41F002ADEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A547F9001B1CB41F002ADEAC /* AppDelegate.m in Sources */,
+				A547F9031B1CB41F002ADEAC /* StretchGasStation.xcdatamodeld in Sources */,
+				A547F9061B1CB41F002ADEAC /* ViewController.m in Sources */,
+				A547F8FD1B1CB41F002ADEAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A547F90F1B1CB41F002ADEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A547F91A1B1CB41F002ADEAC /* StretchGasStationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A547F9151B1CB41F002ADEAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A547F8F61B1CB41F002ADEAC /* StretchGasStation */;
+			targetProxy = A547F9141B1CB41F002ADEAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A547F9071B1CB41F002ADEAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A547F9081B1CB41F002ADEAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A547F90C1B1CB41F002ADEAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A547F90D1B1CB41F002ADEAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A547F91B1B1CB41F002ADEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A547F91C1B1CB41F002ADEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A547F91E1B1CB41F002ADEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StretchGasStation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A547F91F1B1CB41F002ADEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StretchGasStation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A547F9211B1CB41F002ADEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StretchGasStationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StretchGasStation.app/StretchGasStation";
+			};
+			name = Debug;
+		};
+		A547F9221B1CB41F002ADEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StretchGasStationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StretchGasStation.app/StretchGasStation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A547F8F21B1CB41F002ADEAC /* Build configuration list for PBXProject "StretchGasStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A547F91B1B1CB41F002ADEAC /* Debug */,
+				A547F91C1B1CB41F002ADEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A547F91D1B1CB41F002ADEAC /* Build configuration list for PBXNativeTarget "StretchGasStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A547F91E1B1CB41F002ADEAC /* Debug */,
+				A547F91F1B1CB41F002ADEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A547F9201B1CB41F002ADEAC /* Build configuration list for PBXNativeTarget "StretchGasStationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A547F9211B1CB41F002ADEAC /* Debug */,
+				A547F9221B1CB41F002ADEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A547F9011B1CB41F002ADEAC /* StretchGasStation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A547F9021B1CB41F002ADEAC /* StretchGasStation.xcdatamodel */,
+			);
+			currentVersion = A547F9021B1CB41F002ADEAC /* StretchGasStation.xcdatamodel */;
+			path = StretchGasStation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A547F8EF1B1CB41F002ADEAC /* Project object */;
+}
